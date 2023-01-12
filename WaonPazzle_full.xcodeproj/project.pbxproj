@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF62E310293DF063000F4D2A /* WaonPazzle_fullApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF62E30F293DF063000F4D2A /* WaonPazzle_fullApp.swift */; };
+		AF62E312293DF063000F4D2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF62E311293DF063000F4D2A /* ContentView.swift */; };
+		AF62E314293DF065000F4D2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF62E313293DF065000F4D2A /* Assets.xcassets */; };
+		AF62E317293DF065000F4D2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF62E316293DF065000F4D2A /* Preview Assets.xcassets */; };
+		AF62E31E293E11AC000F4D2A /* SerectPazzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF62E31D293E11AC000F4D2A /* SerectPazzle.swift */; };
+		AF62E320293E1B38000F4D2A /* Pazzle2_cont.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF62E31F293E1B38000F4D2A /* Pazzle2_cont.swift */; };
+		AF62E322293F0033000F4D2A /* Seikai2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF62E321293F0033000F4D2A /* Seikai2.swift */; };
+		AF62E324293F003F000F4D2A /* Fuseikai.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF62E323293F003F000F4D2A /* Fuseikai.swift */; };
+		AF62E326293F0EF2000F4D2A /* Pazzle3_cont.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF62E325293F0EF2000F4D2A /* Pazzle3_cont.swift */; };
+		AF62E32829439BCA000F4D2A /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF62E32729439BCA000F4D2A /* SoundPlayer.swift */; };
+		AF62E32A2943A55E000F4D2A /* Pazzle1_lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF62E3292943A55E000F4D2A /* Pazzle1_lesson.swift */; };
+		AF62E32C2943A63B000F4D2A /* Pazzle1_cont.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF62E32B2943A63B000F4D2A /* Pazzle1_cont.swift */; };
+		AFD0C6D329460D440028F8EC /* Pazzle2_lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD0C6D229460D440028F8EC /* Pazzle2_lesson.swift */; };
+		AFD0C6D529464DBD0028F8EC /* Pazzle2_vue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD0C6D429464DBD0028F8EC /* Pazzle2_vue.swift */; };
+		AFD0C6D92946E3720028F8EC /* Seikai3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD0C6D82946E3720028F8EC /* Seikai3.swift */; };
+		AFD0C6DB2946E7CB0028F8EC /* Pazzle3_vue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD0C6DA2946E7CB0028F8EC /* Pazzle3_vue.swift */; };
+		AFD0C6DD2946E8C60028F8EC /* Pazzle4_lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD0C6DC2946E8C60028F8EC /* Pazzle4_lesson.swift */; };
+		AFD0C6DF2946E8D70028F8EC /* Pazzle4_vue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD0C6DE2946E8D70028F8EC /* Pazzle4_vue.swift */; };
+		AFD0C6E329470DA70028F8EC /* Pazzle4_cont.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD0C6E229470DA70028F8EC /* Pazzle4_cont.swift */; };
+		AFD0C6E529471DF70028F8EC /* Seikai4.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD0C6E429471DF70028F8EC /* Seikai4.swift */; };
+		AFD0C6E72947444D0028F8EC /* Pazzle5_lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD0C6E62947444D0028F8EC /* Pazzle5_lesson.swift */; };
+		AFD0C6E9294744650028F8EC /* Pazzle5_vue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD0C6E8294744650028F8EC /* Pazzle5_vue.swift */; };
+		AFD0C6EB2947447E0028F8EC /* Pazzle5_cont.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD0C6EA2947447E0028F8EC /* Pazzle5_cont.swift */; };
+		AFD0C6ED294780FC0028F8EC /* Pazzle6_lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD0C6EC294780FC0028F8EC /* Pazzle6_lesson.swift */; };
+		AFD0C6EF294783D10028F8EC /* Godoken.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD0C6EE294783D10028F8EC /* Godoken.swift */; };
+		AFD0C6F12947863B0028F8EC /* Pazzle6_vue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD0C6F02947863B0028F8EC /* Pazzle6_vue.swift */; };
+		AFD0C6F32947868F0028F8EC /* Pazzle6_cont.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD0C6F22947868F0028F8EC /* Pazzle6_cont.swift */; };
+		AFD0C6F5294786F90028F8EC /* Seikai5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD0C6F4294786F90028F8EC /* Seikai5.swift */; };
+		AFD0C6F7294787200028F8EC /* Seikai6.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD0C6F6294787200028F8EC /* Seikai6.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF62E30C293DF063000F4D2A /* WaonPazzle_full.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaonPazzle_full.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF62E30F293DF063000F4D2A /* WaonPazzle_fullApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaonPazzle_fullApp.swift; sourceTree = "<group>"; };
+		AF62E311293DF063000F4D2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AF62E313293DF065000F4D2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF62E316293DF065000F4D2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF62E31D293E11AC000F4D2A /* SerectPazzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerectPazzle.swift; sourceTree = "<group>"; };
+		AF62E31F293E1B38000F4D2A /* Pazzle2_cont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pazzle2_cont.swift; sourceTree = "<group>"; };
+		AF62E321293F0033000F4D2A /* Seikai2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seikai2.swift; sourceTree = "<group>"; };
+		AF62E323293F003F000F4D2A /* Fuseikai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fuseikai.swift; sourceTree = "<group>"; };
+		AF62E325293F0EF2000F4D2A /* Pazzle3_cont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pazzle3_cont.swift; sourceTree = "<group>"; };
+		AF62E32729439BCA000F4D2A /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		AF62E3292943A55E000F4D2A /* Pazzle1_lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pazzle1_lesson.swift; sourceTree = "<group>"; };
+		AF62E32B2943A63B000F4D2A /* Pazzle1_cont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pazzle1_cont.swift; sourceTree = "<group>"; };
+		AFD0C6D229460D440028F8EC /* Pazzle2_lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pazzle2_lesson.swift; sourceTree = "<group>"; };
+		AFD0C6D429464DBD0028F8EC /* Pazzle2_vue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pazzle2_vue.swift; sourceTree = "<group>"; };
+		AFD0C6D82946E3720028F8EC /* Seikai3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seikai3.swift; sourceTree = "<group>"; };
+		AFD0C6DA2946E7CB0028F8EC /* Pazzle3_vue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pazzle3_vue.swift; sourceTree = "<group>"; };
+		AFD0C6DC2946E8C60028F8EC /* Pazzle4_lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pazzle4_lesson.swift; sourceTree = "<group>"; };
+		AFD0C6DE2946E8D70028F8EC /* Pazzle4_vue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pazzle4_vue.swift; sourceTree = "<group>"; };
+		AFD0C6E229470DA70028F8EC /* Pazzle4_cont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pazzle4_cont.swift; sourceTree = "<group>"; };
+		AFD0C6E429471DF70028F8EC /* Seikai4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seikai4.swift; sourceTree = "<group>"; };
+		AFD0C6E62947444D0028F8EC /* Pazzle5_lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pazzle5_lesson.swift; sourceTree = "<group>"; };
+		AFD0C6E8294744650028F8EC /* Pazzle5_vue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pazzle5_vue.swift; sourceTree = "<group>"; };
+		AFD0C6EA2947447E0028F8EC /* Pazzle5_cont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pazzle5_cont.swift; sourceTree = "<group>"; };
+		AFD0C6EC294780FC0028F8EC /* Pazzle6_lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pazzle6_lesson.swift; sourceTree = "<group>"; };
+		AFD0C6EE294783D10028F8EC /* Godoken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Godoken.swift; sourceTree = "<group>"; };
+		AFD0C6F02947863B0028F8EC /* Pazzle6_vue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pazzle6_vue.swift; sourceTree = "<group>"; };
+		AFD0C6F22947868F0028F8EC /* Pazzle6_cont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pazzle6_cont.swift; sourceTree = "<group>"; };
+		AFD0C6F4294786F90028F8EC /* Seikai5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seikai5.swift; sourceTree = "<group>"; };
+		AFD0C6F6294787200028F8EC /* Seikai6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seikai6.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF62E309293DF063000F4D2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF62E303293DF063000F4D2A = {
+			isa = PBXGroup;
+			children = (
+				AF62E30E293DF063000F4D2A /* WaonPazzle_full */,
+				AF62E30D293DF063000F4D2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF62E30D293DF063000F4D2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF62E30C293DF063000F4D2A /* WaonPazzle_full.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF62E30E293DF063000F4D2A /* WaonPazzle_full */ = {
+			isa = PBXGroup;
+			children = (
+				AF62E30F293DF063000F4D2A /* WaonPazzle_fullApp.swift */,
+				AF62E311293DF063000F4D2A /* ContentView.swift */,
+				AF62E31D293E11AC000F4D2A /* SerectPazzle.swift */,
+				AFD0C6D229460D440028F8EC /* Pazzle2_lesson.swift */,
+				AFD0C6D429464DBD0028F8EC /* Pazzle2_vue.swift */,
+				AF62E31F293E1B38000F4D2A /* Pazzle2_cont.swift */,
+				AF62E321293F0033000F4D2A /* Seikai2.swift */,
+				AFD0C6DA2946E7CB0028F8EC /* Pazzle3_vue.swift */,
+				AF62E325293F0EF2000F4D2A /* Pazzle3_cont.swift */,
+				AFD0C6D82946E3720028F8EC /* Seikai3.swift */,
+				AFD0C6DC2946E8C60028F8EC /* Pazzle4_lesson.swift */,
+				AFD0C6DE2946E8D70028F8EC /* Pazzle4_vue.swift */,
+				AFD0C6E229470DA70028F8EC /* Pazzle4_cont.swift */,
+				AFD0C6E429471DF70028F8EC /* Seikai4.swift */,
+				AFD0C6E62947444D0028F8EC /* Pazzle5_lesson.swift */,
+				AFD0C6E8294744650028F8EC /* Pazzle5_vue.swift */,
+				AFD0C6EA2947447E0028F8EC /* Pazzle5_cont.swift */,
+				AFD0C6F4294786F90028F8EC /* Seikai5.swift */,
+				AF62E323293F003F000F4D2A /* Fuseikai.swift */,
+				AFD0C6EE294783D10028F8EC /* Godoken.swift */,
+				AF62E32729439BCA000F4D2A /* SoundPlayer.swift */,
+				AF62E3292943A55E000F4D2A /* Pazzle1_lesson.swift */,
+				AF62E32B2943A63B000F4D2A /* Pazzle1_cont.swift */,
+				AF62E315293DF065000F4D2A /* Preview Content */,
+				AFD0C6EC294780FC0028F8EC /* Pazzle6_lesson.swift */,
+				AFD0C6F02947863B0028F8EC /* Pazzle6_vue.swift */,
+				AFD0C6F22947868F0028F8EC /* Pazzle6_cont.swift */,
+				AFD0C6F6294787200028F8EC /* Seikai6.swift */,
+			);
+			path = WaonPazzle_full;
+			sourceTree = "<group>";
+		};
+		AF62E315293DF065000F4D2A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AF62E313293DF065000F4D2A /* Assets.xcassets */,
+				AF62E316293DF065000F4D2A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF62E30B293DF063000F4D2A /* WaonPazzle_full */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF62E31A293DF065000F4D2A /* Build configuration list for PBXNativeTarget "WaonPazzle_full" */;
+			buildPhases = (
+				AF62E308293DF063000F4D2A /* Sources */,
+				AF62E309293DF063000F4D2A /* Frameworks */,
+				AF62E30A293DF063000F4D2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaonPazzle_full;
+			productName = WaonPazzle_full;
+			productReference = AF62E30C293DF063000F4D2A /* WaonPazzle_full.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF62E304293DF063000F4D2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					AF62E30B293DF063000F4D2A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = AF62E307293DF063000F4D2A /* Build configuration list for PBXProject "WaonPazzle_full" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF62E303293DF063000F4D2A;
+			productRefGroup = AF62E30D293DF063000F4D2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF62E30B293DF063000F4D2A /* WaonPazzle_full */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF62E30A293DF063000F4D2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF62E317293DF065000F4D2A /* Preview Assets.xcassets in Resources */,
+				AF62E314293DF065000F4D2A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF62E308293DF063000F4D2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD0C6DB2946E7CB0028F8EC /* Pazzle3_vue.swift in Sources */,
+				AFD0C6DD2946E8C60028F8EC /* Pazzle4_lesson.swift in Sources */,
+				AF62E312293DF063000F4D2A /* ContentView.swift in Sources */,
+				AF62E310293DF063000F4D2A /* WaonPazzle_fullApp.swift in Sources */,
+				AFD0C6F7294787200028F8EC /* Seikai6.swift in Sources */,
+				AFD0C6EF294783D10028F8EC /* Godoken.swift in Sources */,
+				AFD0C6E529471DF70028F8EC /* Seikai4.swift in Sources */,
+				AF62E32829439BCA000F4D2A /* SoundPlayer.swift in Sources */,
+				AFD0C6E329470DA70028F8EC /* Pazzle4_cont.swift in Sources */,
+				AFD0C6DF2946E8D70028F8EC /* Pazzle4_vue.swift in Sources */,
+				AFD0C6F32947868F0028F8EC /* Pazzle6_cont.swift in Sources */,
+				AFD0C6EB2947447E0028F8EC /* Pazzle5_cont.swift in Sources */,
+				AFD0C6D92946E3720028F8EC /* Seikai3.swift in Sources */,
+				AFD0C6ED294780FC0028F8EC /* Pazzle6_lesson.swift in Sources */,
+				AFD0C6D329460D440028F8EC /* Pazzle2_lesson.swift in Sources */,
+				AF62E32A2943A55E000F4D2A /* Pazzle1_lesson.swift in Sources */,
+				AF62E31E293E11AC000F4D2A /* SerectPazzle.swift in Sources */,
+				AF62E326293F0EF2000F4D2A /* Pazzle3_cont.swift in Sources */,
+				AFD0C6F5294786F90028F8EC /* Seikai5.swift in Sources */,
+				AF62E322293F0033000F4D2A /* Seikai2.swift in Sources */,
+				AFD0C6E9294744650028F8EC /* Pazzle5_vue.swift in Sources */,
+				AF62E324293F003F000F4D2A /* Fuseikai.swift in Sources */,
+				AFD0C6E72947444D0028F8EC /* Pazzle5_lesson.swift in Sources */,
+				AF62E320293E1B38000F4D2A /* Pazzle2_cont.swift in Sources */,
+				AF62E32C2943A63B000F4D2A /* Pazzle1_cont.swift in Sources */,
+				AFD0C6D529464DBD0028F8EC /* Pazzle2_vue.swift in Sources */,
+				AFD0C6F12947863B0028F8EC /* Pazzle6_vue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AF62E318293DF065000F4D2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF62E319293DF065000F4D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF62E31B293DF065000F4D2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaonPazzle_full/Preview Content\"";
+				DEVELOPMENT_TEAM = 3RHF7ZRHR5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ac.it-shibaura.af19113.WaonPazzle-full";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF62E31C293DF065000F4D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaonPazzle_full/Preview Content\"";
+				DEVELOPMENT_TEAM = 3RHF7ZRHR5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ac.it-shibaura.af19113.WaonPazzle-full";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF62E307293DF063000F4D2A /* Build configuration list for PBXProject "WaonPazzle_full" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF62E318293DF065000F4D2A /* Debug */,
+				AF62E319293DF065000F4D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF62E31A293DF065000F4D2A /* Build configuration list for PBXNativeTarget "WaonPazzle_full" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF62E31B293DF065000F4D2A /* Debug */,
+				AF62E31C293DF065000F4D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF62E304293DF063000F4D2A /* Project object */;
+}
